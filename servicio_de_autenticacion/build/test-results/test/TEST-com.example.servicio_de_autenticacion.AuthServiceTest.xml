@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.servicio_de_autenticacion.AuthServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-04-18T02:17:06" hostname="LAPTOP-I1JHVUKC" time="1.837">
+  <properties/>
+  <testcase name="testLoadUserByUsername()" classname="com.example.servicio_de_autenticacion.AuthServiceTest" time="1.825"/>
+  <testcase name="testLoadUserByUsername_UserNotFound()" classname="com.example.servicio_de_autenticacion.AuthServiceTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+DELETE FROM usuarios;
+
+DROP TABLE usuarios;
+
+CREATE DATABASE Datos_registro;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id SERIAL PRIMARY KEY,
+	username VARCHAR(50) UNIQUE NOT NULL,
+	email VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
+
+SELECT * FROM usuarios;
